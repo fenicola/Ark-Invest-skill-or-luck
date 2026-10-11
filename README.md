@@ -80,8 +80,7 @@ The analysis also highlights the difference between classical OLS significance (
 ## Requirements
 
 ```bash
-pip install numpy pandas matplotlib seaborn yfinance fmfinance quantstats \
-            statsmodels scipy pypfopt ipywidgets requests beautifulsoup4 plotly
+pip install -r requirements.txt
 ```
 
 Python 3.9+ recommended. Run in Jupyter Notebook or JupyterLab.

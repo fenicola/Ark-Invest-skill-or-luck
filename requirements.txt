@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+statsmodels
+yfinance
+quantstats
+PyPortfolioOpt
+ipython
+fmfinance @ https://github.com/FraMedda/fmfinance/archive/refs/heads/main.zip
