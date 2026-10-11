@@ -43,6 +43,9 @@ Cumulative excess return chart over the full 2019–2024 period, annotated with 
 
 Correlation matrix of excess returns across the five ETFs, showing that despite different declared themes (genomics, fintech, robotics) all funds share a very high pairwise correlation — suggesting they are largely interchangeable from a risk-exposure standpoint.
 
+![Cumulative excess returns of the five ARK ETFs vs SPY, 2019–2024.](images/cumulative_excess_returns.png)
+*Cumulative excess returns of the five ARK ETFs vs SPY, 2019–2024.*
+
 ### Phase 2 — Carhart Four-Factor Model (OLS, in-sample)
 
 OLS regression of each ETF's monthly excess returns on the four Carhart factors (Mkt-RF, SMB, HML, Mom) over the in-sample period, presented in a joint table via `summary_col`. Key findings:
@@ -65,6 +68,9 @@ Cross-sectional bootstrap procedure following Cuthbertson, Nitzsche & O'Sullivan
 Results: no ARK ETF clears the 95th percentile of the luck distribution (positive tail) or falls below the 5th percentile (negative tail). The conclusion is that performance across all five funds — both positive and negative — is statistically indistinguishable from luck once systematic factor exposures are controlled for.
 
 The analysis also highlights the difference between classical OLS significance (which ignores the multiple-testing problem) and the bootstrap test: ARKF's significant OLS alpha does not survive the more conservative cross-sectional benchmark.
+
+![Bootstrap luck distribution of alpha t-statistics for ARKG: the real t-alpha (yellow) is well below the 95% critical value (red).](images/luck_distribution_arkg.png)
+*Bootstrap luck distribution of alpha t-statistics for ARKG: the real t-alpha (yellow) is well below the 95% critical value (red).*
 
 ---
 
